@@ -1,0 +1,27 @@
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+}
+
+.blog-post {
+    padding: 2rem 0;
+    border-bottom: .05rem solid #e5e5e5;
+}
+
+.blog-post:first-child {
+    padding-top: 0;
+}
+
+.blog-post:last-child {
+    border-bottom: 0;
+}
+
+.blog-post p:last-child {
+    margin-bottom: 0;
+}
+
+.blog-post-title,
+a.btn-block,
+.card-header {
+    font-size: 1.25em;
+}

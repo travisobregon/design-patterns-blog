@@ -1,0 +1,42 @@
+.home {
+    text-align: center;
+}
+
+.home,
+.tutorials {
+    border-bottom: 2px solid #eee;
+}
+
+.home,
+.conferences,
+.tutorials {
+    padding: 3rem 1.5rem;
+}
+
+
+.conferences p i {
+    width: 20px;
+}
+
+.card-header {
+    text-align: center;
+    border-bottom: 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tutorials h1 {
+    margin-bottom: 0;
+}
+
+.tutorials-meta {
+    text-align: center;
+    font-style: italic;
+    color: #a1a1a1;
+}
+
+.conference-details {
+    padding: 2px 0 2px 0px;
+}

@@ -1,0 +1,19 @@
+.btn-github {
+    color: white !important;
+    background: #626262;
+}
+
+.btn-github:hover {
+    color: white !important;
+    background: #555555;
+}
+
+.btn-gitlab {
+    color: white !important;
+    background: #e14329;
+}
+
+.btn-gitlab:hover {
+    color: white !important;
+    background: #d3371e;
+}
