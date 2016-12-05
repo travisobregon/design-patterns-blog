@@ -9,7 +9,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Arrays;
 
-public class GitHub extends Provider implements ProviderContract {
+public class GitHub extends Provider {
     private static String clientId;
     private static String clientSecret;
 
