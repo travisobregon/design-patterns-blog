@@ -67,11 +67,11 @@ abstract class Provider {
         return new Gson().fromJson(response.toString(), JsonObject.class);
     }
 
-    public void authorize(Response response) {
+    public final void authorize(Response response) {
         response.redirect(this.getAuthorizationUrl());
     }
 
-    public User user(String code) throws IOException {
+    public final User user(String code) throws IOException {
         String token = this.requestAccessToken(code);
 
         JsonObject jsonObject = this.getUserByToken(token);
